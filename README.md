@@ -1,4 +1,4 @@
-# InfiniteLIOMsPaper
+# InfiniteLIOMs
 
 This repository contains data and Julia scripts for the paper "Algorithm for finding local integrals of motion in quantum lattice models in the thermodynamic limit." The scripts compute local integrals of motion (LIOMs) for 1D XXZ model, using two types of basis operators: Pauli strings basis and symmetry resolved basis. See the text for details and definitions.
 
