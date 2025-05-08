@@ -27,7 +27,7 @@ Run the script with the following command-line arguments:
 
 #### Example:
 ```julia
-> julia -t10 --project=. liom_trans_sym_pauli.jl -d 0.5 -M 3
+> julia -t10 --project=. liom_trans_sym_pauli.jl -d 0.5 -M 2
 Generating operators...
 Generated 12 operators
 Computing norms...
