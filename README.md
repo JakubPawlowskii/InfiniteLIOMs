@@ -27,7 +27,7 @@ Run the script with the following command-line arguments:
 
 #### Example:
 ```julia
-> julia -t10 --project=. liom_trans_sym_pauli.jl -d 0.5 -M 2
+> julia -t10 --project=. lioms_trans_sym_pauli.jl -d 0.5 -M 2
 Generating operators...
 Generated 12 operators
 Computing norms...
@@ -66,7 +66,7 @@ Run the script with the following command-line arguments:
 
 #### Example:
 ```julia
-> julia -t10 --project=. liom_trans_sym.jl -d 0.5 -M 3 -T odd -P even -C yes
+> julia -t10 --project=. lioms_trans_sym.jl -d 0.5 -M 3 -T odd -P even -C yes
 Generating operators...
 Generated 3 operators
 Computing norms...
@@ -81,7 +81,7 @@ Size of basis for M=3, restricted to time reversal = odd, parity = even, Sz cons
 Number of LIOMs found: 1
 Elapsed time: 0.994267708 s
 ```
-The following encoding is used: $\mathrm{Id} \to 0, S^+ \to 1,\; S^z \to 2, S^- \to 3$.
+The following encoding is used: $\mathrm{I} \to 0,\, S^+ \to 1,\, S^z \to 2,\, S^- \to 3$.
 For the above parameters, one LIOM is produced, corresponding to the energy current $Q_3$.
 
 ### Output 
