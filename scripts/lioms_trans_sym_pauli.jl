@@ -169,7 +169,7 @@ function main()
   H = XXZ(L, J, Delta)
 
   tic = time_ns()
-  @time evals, evecs, ops_list = compute_lioms(H, max_supp)
+  evals, evecs, ops_list = compute_lioms(H, max_supp)
   toc = time_ns()
 
   res_path = "$(@__DIR__)/results/1D_XXZ/Pauli_strings"
