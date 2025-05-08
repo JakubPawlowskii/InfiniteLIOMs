@@ -96,7 +96,8 @@ The outputs include:
 - `log_*.txt`: Log file with computation parameters and summary.
 
 ## Overview of data
-All data shown in paper is hosted on Zenodo. In `plots/` there are Python scripts creating the plots, assuming that the data is downloaded and unpacked in `data/`. If you are interested in structure of the data files, please consult the plotting scripts for details.
+All data shown in paper is hosted on [Zenodo](https://doi.org/10.5281/zenodo.15363681). In `plots/` there are Python scripts creating the plots, assuming that the data is downloaded and unpacked in `data/`. If you are interested in structure of the data files, please consult the plotting scripts for details.
+
 
 ## Acknowledgments
 The algebra of operators in these scripts is implemented via the library [`PauliStrings.jl`](https://github.com/nicolasloizeau/PauliStrings.jl) developed by Nicolas Loizeau, J. Clayton Peacock and Dries Sels and published in: Loizeau, J. C. Peacock, and D. Sels, Quantum many-body simulations with PauliStrings.jl, [SciPost Physics Codebases , 054 (2025)](https://scipost.org/10.21468/SciPostPhysCodeb.54).
