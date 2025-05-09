@@ -82,7 +82,7 @@ Number of LIOMs found: 1
 Elapsed time: 0.994267708 s
 ```
 The following encoding is used: $\mathrm{I} \to 0,\, S^+ \to 1,\, S^z \to 2,\, S^- \to 3$, e..g,
-"321" means "$S^-_l S^z_{l+1}  S^+_{l+2}$" and "301" means "$S^-_l \mathrm{I}_{l+1} S^+_{l+2}$"
+321 means $S^-_l S^z_{l+1}  S^+_{l+2}$ and 301 means $S^-_l \mathrm{I}_{l+1} S^+_{l+2}$.
 For the above parameters, one LIOM is produced, corresponding to the energy current $Q_3$.
 
 ### Output 
