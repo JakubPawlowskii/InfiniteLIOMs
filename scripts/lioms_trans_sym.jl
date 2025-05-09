@@ -40,7 +40,7 @@ hc(o) -> Int
 
 Return the Hermitian conjugate: 1↔3, leaving other labels unchanged.
 """
-@inline hc(o) = (o == 1 ? 3 : (o == 3 ? 1 : o))
+@inline hc(o::Int) = (o == 1 ? 3 : (o == 3 ? 1 : o))
 
 """
 undigit(olist::Vector{Int}) -> Int
@@ -50,7 +50,9 @@ Convert a base-4 digit list to its integer representation.
 @inline undigit(olist) = sum([olist[i] * 4^(i - 1) for i in eachindex(olist)])
 
 symbol_map = Dict(0 => "1", 1 => "S+", 2 => "Sz", 3 => "S-")
-superscript_map = Dict("S+" => "+", "Sz" => "Z", "S-" => "-", "1" => "1")
+superscript_map = Dict("S+" => "P", "Sz" => "Z", "S-" => "M", "1" => "1")
+@inline hc(o::String) = (o == "P" ? "M" : (o == "M" ? "P" : o))
+
 
 """
 map_with_indices(arr) -> Tuple
