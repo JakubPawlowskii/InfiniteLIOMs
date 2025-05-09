@@ -74,15 +74,14 @@ Precomputing commutators...
 3 smallest eigenvalues:
 [-1.1814295211437466e-16, 0.37499999999999983, 3.9999999999999942]
 3 eigenvectors corrsponding to smallest eigenvalues:
-∑_l i(321 - 123)    0.81650  0.57735 -0.00000
-∑_l i(231 - 213)   -0.40825  0.57735 -0.70711
-∑_l i(312 - 132)   -0.40825  0.57735  0.70711
+∑_l i(MZP - PZM)    0.81650  0.57735 -0.00000
+∑_l i(ZMP - ZPM)   -0.40825  0.57735 -0.70711
+∑_l i(MPZ - PMZ)   -0.40825  0.57735  0.70711
 Size of basis for M=3, restricted to time reversal = odd, parity = even, Sz conservation = yes: 3
 Number of LIOMs found: 1
-Elapsed time: 0.994267708 s
+Elapsed time: 1.03720275 s
 ```
-The following encoding is used: $\mathrm{I} \to 0,\, S^+ \to 1,\, S^z \to 2,\, S^- \to 3$, e..g,
-321 means $S^-_l S^z_{l+1}  S^+_{l+2}$ and 301 means $S^-_l \mathrm{I}_{l+1} S^+_{l+2}$.
+The following encoding is used: $\mathrm{I} \to 1, S^+ \to P, S^z \to Z, S^- \to M$.
 For the above parameters, one LIOM is produced, corresponding to the energy current $Q_3$.
 
 ### Output 
