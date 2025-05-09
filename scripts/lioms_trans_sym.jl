@@ -50,7 +50,7 @@ Convert a base-4 digit list to its integer representation.
 @inline undigit(olist) = sum([olist[i] * 4^(i - 1) for i in eachindex(olist)])
 
 symbol_map = Dict(0 => "1", 1 => "S+", 2 => "Sz", 3 => "S-")
-superscript_map = Dict("S+" => 1, "Sz" => 2, "S-" => 3, "1" => 0)
+superscript_map = Dict("S+" => "+", "Sz" => "Z", "S-" => "-", "1" => "1")
 
 """
 map_with_indices(arr) -> Tuple
