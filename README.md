@@ -51,7 +51,7 @@ Size of basis for M=2 : 12
 Number of LIOMs found: 2
 Elapsed time: 0.762079875 s
 ```
-In this case, the script correctly reproduces the total $S^z$ (first column) and the Hamiltonian of XXZ  model (second column). "X,Y,Z" are Pauli operators and "1" is the identity operator. 
+In this case, the script finds two concerved quantities (shown in first two columns) corresponding to zero eigenvalues. It reproduces the total $S^z$ (first column) and the Hamiltonian of XXZ  model (second column). "X,Y,Z" are Pauli operators and "1" is the identity operator. 
 
 ### 1. `lioms_trans_sym.jl`
 This script computes LIOMs in a symmetry-resolved basis, for the XXZ model. It allows for constraints based on time-reversal symmetry, parity, and conservation of total $S^z$.
